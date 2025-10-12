@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Alert</title>
+</head>
+<body>
+  <h2>⚠️ Depression Risk Alert</h2>
+  <p>Your risk score is high: {{ risk }}</p>
+  <p>Please consider reaching out for support. Here are some resources:</p>
+  <ul>
+    <li>National Helpline: 1800-599-0019 (India)</li>
+    <li>International: <a href="https://findahelpline.com">findahelpline.com</a></li>
+  </ul>
+  <a href="{{ url_for('dashboard_user') }}">Go back</a>
+</body>
+</html>

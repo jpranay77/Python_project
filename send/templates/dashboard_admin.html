@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Admin Dashboard</title>
+</head>
+<body>
+  <h2>Admin Dashboard</h2>
+  <table border="1">
+    <tr>
+      <th>User</th>
+      <th>Post</th>
+      <th>Risk Score</th>
+      <th>Timestamp</th>
+    </tr>
+    {% for row in data %}
+    <tr>
+      <td>{{ row.username }}</td>
+      <td>{{ row.post_text }}</td>
+      <td>{{ row.risk_score }}</td>
+      <td>{{ row.created_at }}</td>
+    </tr>
+    {% endfor %}
+  </table>
+  
+  <a href="{{ url_for('logout') }}">Logout</a>
+</body>
+</html>
