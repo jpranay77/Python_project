@@ -1,4 +1,4 @@
-# My-Projects
+**Depression Detection in Social Media:A Comprehensive Review of Machine Learning and Deep Learning Techniques**
 # Introduction
 Depression is one of the most common mental health challenges in today’s digital era, and early detection is crucial for effective intervention. With the rise of social media, users often express emotions and moods through text and images that can reflect their mental well-being. This project, Depression Detection on Social Media, aims to leverage artificial intelligence to automatically identify signs of depression from users’ text posts and facial expressions. The system integrates deep learning and natural language processing techniques to analyze multimodal data and predict depression risk in real time.
 # Project Description
