@@ -4,16 +4,16 @@ Depression is one of the most common mental health challenges in today’s digit
 # Project Description
 The Depression Detection on Social Media system is a real-time AI-powered web application built using Flask, combining both facial emotion recognition and text sentiment analysis to detect potential depression levels in users. It utilizes Convolutional Neural Networks (CNN) for analyzing facial expressions from uploaded images and NLP models (using NLTK and spaCy) for interpreting the emotional tone of text-based social media posts. A rule-based fusion algorithm consolidates both results to produce a final depression risk score. The web app provides role-based access for users and administrators—users can upload data and view their depression analysis results, while admins can monitor user activity, risk levels, and historical trends. All data is securely stored in a MySQL database, ensuring privacy and reliability. The system also includes therapy suggestions and consultation recommendations, offering a supportive interface that bridges AI technology and mental health care.
 # Technology Stack
-####Programming Language: Python
-####Web Framework: Flask
-####Deep Learning Library: TensorFlow / Keras
-####Natural Language Processing: NLTK, spaCy
-####Computer Vision: OpenCV
-####Database: MySQL (via XAMPP)
-####Frontend: HTML, CSS, JavaScript
-####Model Files: CNN model (depression_cnn_model.h5) and NLP model (nlp_sentiment_model.pkl)
-# Installation Guidelines
+. Programming Language: Python
+. Web Framework: Flask
+. Deep Learning Library: TensorFlow / Keras
+. Natural Language Processing: NLTK, spaCy
+. Computer Vision: OpenCV
+. Database: MySQL (via XAMPP)
+. Frontend: HTML, CSS, JavaScript
+. Model Files: CNN model (depression_cnn_model.h5) and NLP model (nlp_sentiment_model.pkl)
 
+# Installation Guidelines
 # Create and Activate a Virtual Environment
 python -m venv venv
 venv\Scripts\activate  # (Windows)
