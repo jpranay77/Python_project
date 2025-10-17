@@ -13,9 +13,7 @@ Database: MySQL (via XAMPP)
 Frontend: HTML, CSS, JavaScript
 Model Files: CNN model (depression_cnn_model.h5) and NLP model (nlp_sentiment_model.pkl)
 # Installation Guidelines
-# Clone the Repository
-git clone https://github.com/yourusername/depression-detection-social-media.git
-cd depression-detection-social-media
+
 # Create and Activate a Virtual Environment
 python -m venv venv
 venv\Scripts\activate  # (Windows)
