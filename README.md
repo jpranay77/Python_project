@@ -12,8 +12,11 @@ The Depression Detection on Social Media system is a real-time AI-powered web ap
 
 . Natural Language Processing: NLTK, spaCy
 . Computer Vision: OpenCV
+
 . Database: MySQL (via XAMPP)
+
 . Frontend: HTML, CSS, JavaScript
+
 . Model Files: CNN model (depression_cnn_model.h5) and NLP model (nlp_sentiment_model.pkl)
 
 # Installation Guidelines
@@ -31,10 +34,15 @@ python app.py
 # Configuration
 Database Configuration:
 Update your database credentials in app.py if needed:
+
 app.config['MYSQL_HOST'] = 'localhost'
+
 app.config['MYSQL_USER'] = 'root'
+
 app.config['MYSQL_PASSWORD'] = ''
+
 app.config['MYSQL_DB'] = 'depression_db'
+
 # Model Configuration:
 Place your pre-trained models (depression_cnn_model.h5 and nlp_sentiment_model.pkl) in the project’s root directory.
 # Default Admin Credentials:
